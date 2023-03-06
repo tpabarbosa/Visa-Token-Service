@@ -1,0 +1,23 @@
+{
+  "name": "visa-token-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "hello:start": "node helloworld.js",
+    "hello:dev": "nodemon helloworld.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-jose": "^2.2.0",
+    "request": "^2.88.2"
+  }
+}
